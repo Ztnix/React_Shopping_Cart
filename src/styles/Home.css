@@ -1,0 +1,191 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Welcome */
+
+.welcomeSection {
+  background-color: black;
+  color: white;
+  padding: 4rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
+
+.welcomeContainer {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.welcomeTitle {
+  font-size: 4rem;
+}
+
+.welcomeDesc {
+  font-size: 1.3rem;
+  color: rgb(152, 152, 152);
+}
+
+/* Showcase */
+
+.showcaseSection {
+  padding: 2rem 2rem;
+  color: white;
+}
+
+.showcaseContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 4rem;
+  background-color: #757575;
+  border-radius: 10px;
+  padding: 0rem 1rem;
+}
+
+.showcase1ImgContainer {
+  width: 400px;
+}
+
+.showcase1Img {
+  width: 100%;
+  height: 100%;
+}
+
+.showcase1Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.showcase1Title {
+  font-size: 4.5rem;
+  margin-bottom: -1rem;
+}
+
+.showcase1Desc {
+  color: rgb(222, 222, 222);
+}
+
+/* Showcase2 */
+
+.showcase2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  background-color: #757575;
+  border-radius: 10px;
+  padding: 0rem 1rem;
+}
+
+.showcase2Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.showcase2Title {
+  font-size: 1.8rem;
+}
+
+.showcase2ImgContainer {
+  height: 250px;
+}
+
+.showcase2Img {
+  height: 100%;
+}
+
+/* Showcase 3 */
+
+.showcase3 {
+  display: flex;
+  gap: 1rem;
+}
+
+.showcase3ImgContainer {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  background-color: #757575;
+  border-radius: 10px;
+}
+
+.showcase3Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.showcase3Text {
+  display: flex;
+  flex: 1;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #757575;
+}
+
+.showcase3Title {
+  font-size: 1.8rem;
+}
+
+/* Testimony */
+
+.testimonyContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.testimonyText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  gap: 2rem;
+  max-width: 44ch;
+  line-height: 1.5rem;
+}
+
+.testimonyTitle {
+  font-size: 2.5rem;
+}
+
+.testimonyDesc {
+  font-size: 0.9rem;
+}
+
+.testimonyImgContainer {
+  width: 400px;
+}
+
+.testimonyImg {
+  width: 100%;
+}
