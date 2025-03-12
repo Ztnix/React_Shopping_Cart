@@ -4,7 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Routes from "./Routes";
 import "../styles/index.css";
 
-const router = createBrowserRouter(Routes);
+const router = createBrowserRouter(Routes, {
+  basename: "/React_Shopping_Cart",
+});
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
